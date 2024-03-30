@@ -1,0 +1,188 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+html {
+    overflow-x: hidden;
+}
+body {
+    background-color: rgb(54, 53, 54);
+    color: white;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    overflow: auto;
+    font-size: 14px;
+    overflow-x: hidden;
+    padding-top: 0;
+}
+h1{
+    text-align: center;
+}
+h5 {
+
+    border-bottom: 1px solid #ffffff94;
+    width: fit-content;
+}
+
+.download a img {
+    width: 160px;
+    height: 63px;
+    margin-top: -11px;
+}
+.fatfooter{
+margin:  20px 0px 20px 0px;
+}
+.fatfooter,
+.main {
+    display: flex;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.icons a i {
+    display: flex;
+    align-items: center;
+    background: transparent;
+    justify-content: center;
+    width: 40px;
+    height: 41px;
+    border-radius: 20%;
+    text-align: center;
+    margin-right: 20px;
+    font-size: 15px;
+    color: #fff;
+}
+
+.subscription-form {
+  display: flex;
+}
+
+.subscription-form input[type="email"],
+.subscription-form input[type="tel"],
+.search input[type="search"]
+{
+    padding: 10px;
+    border: none;
+    width: 50%;
+    border-radius: 10px 0px 0px 10px;
+}
+.search{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+.search input[type="search"]{
+    width: 100%;
+}
+.subscription-form button[type="submit"],
+.search button[type="submit"] {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.subscription-form button[type="submit"]:hover {
+    background-color: #c80303;
+}
+.iems1{
+    margin-left: 0;
+    padding-left: 0;
+}
+.single-footer,
+.single-footer {
+    flex: 1;
+    margin-left: 50px;
+}
+
+ h5 {
+    font-size: 1.3rem;
+    color: white;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+    width: fit-content;
+}
+
+.single-footer p,p,
+.single-footer ul {
+    font-size: 1.05rem;
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-top: 20px;
+    color: #ccc;
+}
+
+.single-footer ul {
+    list-style-type: none;
+}
+
+.single-footer li {
+    margin-bottom: 10px;
+}
+
+.single-footer a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+.single-footer a:hover {
+    color: #fff;
+}
+
+.footer-social {
+    margin-top: 20px;
+}
+
+.footer-social a {
+    color: white;
+}
+.search{
+    margin-top: 50px;
+    text-align:center;
+    width:278px;
+}
+.copyright{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 20px;
+}
+@media only screen and (max-width: 768px) {
+    .fatfooter,.main {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .email,
+    .phonenumber,
+    .download {
+        margin-top: 30px;
+       
+    }
+.subscription-form {
+  justify-content: center;
+}
+    
+    .single-footer,.single-footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+}
